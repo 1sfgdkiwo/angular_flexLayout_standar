@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  menuMobile: boolean=false;
 
   constructor() { }
 
@@ -24,5 +25,26 @@ export class HomeComponent implements OnInit {
          }
        }
      }
-   
+
+  bukaMenuMobile(){
+    this.menuMobile=! this.menuMobile
+  }   
+  images = [
+    {
+      label: "First",
+      path: "assets/img/adword.jpg"
+    },
+    {
+      label: "Second",
+      path: "assets/img/Larave.jpg"
+    },
+    {
+      label: "Third",
+      path: "assets/img/node.jpeg"
+    },
+    {
+      label: "Fourth",
+      path: "assets/img/react.jpg"
+    }
+  ]
 }
