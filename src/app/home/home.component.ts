@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    //testing git
   }
   menuDrop(event:any) {
     (<HTMLInputElement>document.getElementById("myDropdown")).classList.toggle("show");
