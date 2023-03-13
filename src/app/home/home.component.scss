@@ -9,9 +9,7 @@
     // width: 100%;
     // height: 100%;
     z-index: 10;
-    position: absolute;
-    // margin-top: 51px;
-    top:170px;
+
     // background-color: rgb(217, 255, 0);
 }
 .content_kiri{
@@ -127,45 +125,6 @@
 
 
 @media (max-width: 599px) {
-.header{
-    top: 0;
-    position: fixed;
-    background-color: rgb(0, 119, 255);
-    z-index: 20;
-}
-.slideGambar{
-    z-index: 2;
-}
 
-.titikTiga {
-    position: fixed;
-    margin-top: 15px;
-    left: 90%;
-    background-color: rgb(0, 119, 255);
-    border: none;
-}
-.menuMobile{
-    z-index: 25;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background-color:rgb(0, 119, 255);
-}
-.navigasi{
-    left: 0;
-    
-}
-
-.footer{
-    z-index: 22;
-    position: absolute;
-    color:white;
-    font-size: larger;
-    top:95%;
-    width: 100%;
-    height:40px;
-    // background-image: linear-gradient(to right,rgb(39, 243, 39), white);
-    background-color:  rgb(0, 119, 255);
-}
 
 }

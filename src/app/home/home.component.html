@@ -16,31 +16,7 @@
         </div>
         <li><a href="#">ABOUT</a></li>
     </ul>
-
-    <button class="titikTiga" (click)="bukaMenuMobile()"  mat-button fxShow.xs fxHide><mat-icon>more_vert</mat-icon> </button>
-    <div class="menuMobile" *ngIf="menuMobile==true">
-        <ul class="navigasi" >
-            <li><a href="#">HOME</a></li>
     
-            <li><a href="#">ADMIN</a></li>
-            <div class="dropdown">
-                <button (click)="menuDrop($event)" class="dropbtn">SUB MENU</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a>Item 1</a>
-                    <a href="#">Item 2</a>
-    
-                </div>
-            </div>
-            <li><a href="#">ABOUT</a></li>
-        </ul>
-    </div>
-
-</div>
-<div class="slideGambar" fxFlex="40"  fxFlex.xs="100" fxLayout="row"     >
-    <carousel
-    [loop]=true
-    [images]="images">
-</carousel>
 </div>
     <div fxFlex="80" fxFlex.xs="100" class="content" fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px">
         
