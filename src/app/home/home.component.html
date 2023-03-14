@@ -19,13 +19,37 @@
     
 </div>
     <div fxFlex="80" fxFlex.xs="100" class="content" fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px">
+        <div fxLayout="column">
         
-        <div class="content_kiri" fxLayoutAlign="start">
-            <p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan bahwa nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang diikat berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang baru untuk menggantikan ibu kota yang lama di Dayeuhkolot.</p>
-        </div>
-        <div class="content_kanan" fxLayoutAlign="center">
-            <div  fxLayout="column">
-                <p>1 end!</p><p>2 end!</p><p>3 end!</p><p>4 end!</p><p>5 end!</p><p>6 end!</p><p>7 end!</p>
+        
+            <div class="slideGambar" fxLayoutAlign="center center">
+                <!-- <span class="spacer"></span>    -->
+                <carousel [images]="images">
+                </carousel>
+                <!-- <span class="spacer"></span>   -->
+            </div>
+        
+            <div class="contentArtikel" fxLayout="row" fxLayoutGap="10px">
+                <div class="content_kiri" fxLayoutAlign="start">
+                    <p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung
+                        Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung
+                        mengatakan bahwa nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang diikat
+                        berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk
+                        melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang baru untuk menggantikan ibu kota yang lama
+                        di Dayeuhkolot.</p>
+                </div>
+                <div class="content_kanan" fxLayoutAlign="center">
+                    <div fxLayout="column">
+                        <p>1 end!</p>
+                        <p>2 end!</p>
+                        <p>3 end!</p>
+                        <p>4 end!</p>
+                        <p>5 end!</p>
+                        <p>6 end!</p>
+                        <p>7 end!</p>
+                    </div>
+            
+                </div>
             </div>
             
         </div>
