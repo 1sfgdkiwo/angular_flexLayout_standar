@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import {IvyCarouselModule} from 'angular-responsive-carousel';
+import {IvyCarouselModule} from 'angular-responsive-carousel'; // ini komen dari branch langsung
 @NgModule({
   declarations: [
     AppComponent,
