@@ -24,12 +24,12 @@
         
             <div class="slideGambar" fxLayoutAlign="center center">
                 <!-- <span class="spacer"></span>    -->
-                <carousel [images]="images">
+                <carousel [images]="images" [cellsToScroll]=1 [loop]="true">
                 </carousel>
                 <!-- <span class="spacer"></span>   -->
             </div>
         
-            <div class="contentArtikel" fxLayout="row" fxLayoutGap="10px">
+            <div class="contentArtikel" fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px">
                 <div class="content_kiri" fxLayoutAlign="start">
                     <p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung
                         Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung

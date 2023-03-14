@@ -17,12 +17,14 @@
 }
 .contentArtikel{
     position: absolute;
-    top:250px;
+    top:300px;
 }
 .content_kiri{
-    padding: 5px;
+    color: blue;
+    opacity: 75%;
+    padding: 10px;
     border-radius: 10px;
-    background-color: rgba(227, 241, 237, 0.986);
+    background-color:black;// rgba(227, 241, 237, 0.986);
 }
 .content_kanan{
     width: 100%;
@@ -33,10 +35,11 @@
 
 .slideGambar{
     position: absolute;
-    top:55px;
+    margin-top: 40px;
+    top:65px;
     left:25%;
     width: 50%;
-    height:100px;
+    height:90px;
 }
 
 
@@ -121,7 +124,7 @@
 // sub menu akhir 
 .footer{
     z-index: 22;
-    position: absolute;
+    position: fixed;
     color:white;
     font-size: larger;
     top:90%;
