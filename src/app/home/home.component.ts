@@ -48,4 +48,18 @@ export class HomeComponent implements OnInit {
       path: "assets/img/react.jpg"
     }
   ]
+
+  menuDropM(event:any) {
+    (<HTMLInputElement>document.getElementById("myDropdownM")).classList.toggle("show");
+       if (!event.target.matches('.dropbtnM')) {
+         var dropdowns = document.getElementsByClassName("dropdown-contentM");
+         var i;
+         for (i = 0; i < dropdowns.length; i++) {
+           var openDropdown = dropdowns[i];
+           if (openDropdown.classList.contains('show')) {
+             openDropdown.classList.remove('show');
+           }
+         }
+       }
+     }
 }

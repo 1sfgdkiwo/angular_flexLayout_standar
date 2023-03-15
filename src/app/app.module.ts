@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel'; // ini komen dari branch langsung
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +15,7 @@ import {IvyCarouselModule} from 'angular-responsive-carousel'; // ini komen dari
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,FlexLayoutModule,IvyCarouselModule
+    AppRoutingModule,FlexLayoutModule,IvyCarouselModule,MatIconModule,MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
