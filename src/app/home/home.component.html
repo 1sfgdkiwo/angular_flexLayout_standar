@@ -16,6 +16,44 @@
         </div>
         <li><a href="#">ABOUT</a></li>
     </ul>
+    <div fxShow.xs fxHide fxLayout="center center" fxLayoutAlign="end center">
+        <button (click)="bukaMenuMobile()" mat-button *ngIf="menuMobile==false"><mat-icon>more_vert</mat-icon></button>   
+    </div>
+        <div class="headerMobile" *ngIf="menuMobile==true">
+            <div fxLayoutAlign="end center">
+                <button (click)="bukaMenuMobile()" mat-button><mat-icon>close</mat-icon></button>
+            </div>
+            <nav *ngIf="menuMobile==true" fxShow.xs fxHide>
+            <ul class="menu" *ngIf="menuMobile==true"  fxShow.xs fxHide>
+                
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">Admin</a></li>
+                <!-- <li class="item has-submenu"> -->
+                <div class="item dropdown">
+                    <!-- <a tabindex="0">Services</a> -->
+                    <div fxLayoutAlign="center center">
+                        <button (click)="menuDropM($event)" class="dropbtnM"  >SUB MENU <mat-icon class="ikonArrow">arrow_drop_down</mat-icon></button>
+                    </div> 
+                        
+            
+                    
+                    <div id="myDropdownM" class=" dropdown-contentM">
+                        <!-- <li class="subitem"><a href="#">Design</a></li>
+                        <li class="subitem"><a href="#">Development</a></li>
+                        <li class="subitem"><a href="#">SEO</a></li>
+                        <li class="subitem"><a href="#">Copywriting</a></li> -->
+                        <a href="#">Item 1</a>
+                        <a href="#">Item 2</a>
+                        
+                    </div>
+                </div>
+                <!-- </li> -->
+                <li class="item"><a href="#">About</a></li>
+                
+            </ul>
+        </nav>
+        </div>
+
     
 </div>
     <div fxFlex="80" fxFlex.xs="100" class="content" fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px">
